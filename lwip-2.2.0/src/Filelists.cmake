@@ -147,29 +147,29 @@ set(lwipppp_SRCS
 )
 
 # SNMPv3 agent
-set(lwipsnmp_SRCS
-    ${LWIP_DIR}/src/apps/snmp/snmp_asn1.c
-    ${LWIP_DIR}/src/apps/snmp/snmp_core.c
-    ${LWIP_DIR}/src/apps/snmp/snmp_mib2.c
-    ${LWIP_DIR}/src/apps/snmp/snmp_mib2_icmp.c
-    ${LWIP_DIR}/src/apps/snmp/snmp_mib2_interfaces.c
-    ${LWIP_DIR}/src/apps/snmp/snmp_mib2_ip.c
-    ${LWIP_DIR}/src/apps/snmp/snmp_mib2_snmp.c
-    ${LWIP_DIR}/src/apps/snmp/snmp_mib2_system.c
-    ${LWIP_DIR}/src/apps/snmp/snmp_mib2_tcp.c
-    ${LWIP_DIR}/src/apps/snmp/snmp_mib2_udp.c
-    ${LWIP_DIR}/src/apps/snmp/snmp_snmpv2_framework.c
-    ${LWIP_DIR}/src/apps/snmp/snmp_snmpv2_usm.c
-    ${LWIP_DIR}/src/apps/snmp/snmp_msg.c
-    ${LWIP_DIR}/src/apps/snmp/snmpv3.c
-    ${LWIP_DIR}/src/apps/snmp/snmp_netconn.c
-    ${LWIP_DIR}/src/apps/snmp/snmp_pbuf_stream.c
-    ${LWIP_DIR}/src/apps/snmp/snmp_raw.c
-    ${LWIP_DIR}/src/apps/snmp/snmp_scalar.c
-    ${LWIP_DIR}/src/apps/snmp/snmp_table.c
-    ${LWIP_DIR}/src/apps/snmp/snmp_threadsync.c
-    ${LWIP_DIR}/src/apps/snmp/snmp_traps.c
-)
+#set(lwipsnmp_SRCS
+#    ${LWIP_DIR}/src/apps/snmp/snmp_asn1.c
+#    ${LWIP_DIR}/src/apps/snmp/snmp_core.c
+#    ${LWIP_DIR}/src/apps/snmp/snmp_mib2.c
+#    ${LWIP_DIR}/src/apps/snmp/snmp_mib2_icmp.c
+#    ${LWIP_DIR}/src/apps/snmp/snmp_mib2_interfaces.c
+#    ${LWIP_DIR}/src/apps/snmp/snmp_mib2_ip.c
+#    ${LWIP_DIR}/src/apps/snmp/snmp_mib2_snmp.c
+#    ${LWIP_DIR}/src/apps/snmp/snmp_mib2_system.c
+#    ${LWIP_DIR}/src/apps/snmp/snmp_mib2_tcp.c
+#    ${LWIP_DIR}/src/apps/snmp/snmp_mib2_udp.c
+#    ${LWIP_DIR}/src/apps/snmp/snmp_snmpv2_framework.c
+#    ${LWIP_DIR}/src/apps/snmp/snmp_snmpv2_usm.c
+#    ${LWIP_DIR}/src/apps/snmp/snmp_msg.c
+#    ${LWIP_DIR}/src/apps/snmp/snmpv3.c
+#    ${LWIP_DIR}/src/apps/snmp/snmp_netconn.c
+#    ${LWIP_DIR}/src/apps/snmp/snmp_pbuf_stream.c
+#    ${LWIP_DIR}/src/apps/snmp/snmp_raw.c
+#    ${LWIP_DIR}/src/apps/snmp/snmp_scalar.c
+#    ${LWIP_DIR}/src/apps/snmp/snmp_table.c
+#    ${LWIP_DIR}/src/apps/snmp/snmp_threadsync.c
+#    ${LWIP_DIR}/src/apps/snmp/snmp_traps.c
+#)
 
 # HTTP server + client
 set(lwiphttp_SRCS
