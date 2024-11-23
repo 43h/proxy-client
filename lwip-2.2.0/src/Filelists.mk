@@ -136,27 +136,27 @@ LWIPNOAPPSFILES=$(COREFILES) \
 	$(SIXLOWPAN)
 
 # SNMPFILES: SNMPv2c agent
-SNMPFILES=$(LWIPDIR)/apps/snmp/snmp_asn1.c \
-	$(LWIPDIR)/apps/snmp/snmp_core.c \
-	$(LWIPDIR)/apps/snmp/snmp_mib2.c \
-	$(LWIPDIR)/apps/snmp/snmp_mib2_icmp.c \
-	$(LWIPDIR)/apps/snmp/snmp_mib2_interfaces.c \
-	$(LWIPDIR)/apps/snmp/snmp_mib2_ip.c \
-	$(LWIPDIR)/apps/snmp/snmp_mib2_snmp.c \
-	$(LWIPDIR)/apps/snmp/snmp_mib2_system.c \
-	$(LWIPDIR)/apps/snmp/snmp_mib2_tcp.c \
-	$(LWIPDIR)/apps/snmp/snmp_mib2_udp.c \
-	$(LWIPDIR)/apps/snmp/snmp_snmpv2_framework.c \
-	$(LWIPDIR)/apps/snmp/snmp_snmpv2_usm.c \
-	$(LWIPDIR)/apps/snmp/snmp_msg.c \
-	$(LWIPDIR)/apps/snmp/snmpv3.c \
-	$(LWIPDIR)/apps/snmp/snmp_netconn.c \
-	$(LWIPDIR)/apps/snmp/snmp_pbuf_stream.c \
-	$(LWIPDIR)/apps/snmp/snmp_raw.c \
-	$(LWIPDIR)/apps/snmp/snmp_scalar.c \
-	$(LWIPDIR)/apps/snmp/snmp_table.c \
-	$(LWIPDIR)/apps/snmp/snmp_threadsync.c \
-	$(LWIPDIR)/apps/snmp/snmp_traps.c
+# SNMPFILES=$(LWIPDIR)/apps/snmp/snmp_asn1.c \
+# 	$(LWIPDIR)/apps/snmp/snmp_core.c \
+# 	$(LWIPDIR)/apps/snmp/snmp_mib2.c \
+# 	$(LWIPDIR)/apps/snmp/snmp_mib2_icmp.c \
+# 	$(LWIPDIR)/apps/snmp/snmp_mib2_interfaces.c \
+# 	$(LWIPDIR)/apps/snmp/snmp_mib2_ip.c \
+# 	$(LWIPDIR)/apps/snmp/snmp_mib2_snmp.c \
+# 	$(LWIPDIR)/apps/snmp/snmp_mib2_system.c \
+# 	$(LWIPDIR)/apps/snmp/snmp_mib2_tcp.c \
+# 	$(LWIPDIR)/apps/snmp/snmp_mib2_udp.c \
+# 	$(LWIPDIR)/apps/snmp/snmp_snmpv2_framework.c \
+# 	$(LWIPDIR)/apps/snmp/snmp_snmpv2_usm.c \
+# 	$(LWIPDIR)/apps/snmp/snmp_msg.c \
+# 	$(LWIPDIR)/apps/snmp/snmpv3.c \
+# 	$(LWIPDIR)/apps/snmp/snmp_netconn.c \
+# 	$(LWIPDIR)/apps/snmp/snmp_pbuf_stream.c \
+# 	$(LWIPDIR)/apps/snmp/snmp_raw.c \
+# 	$(LWIPDIR)/apps/snmp/snmp_scalar.c \
+# 	$(LWIPDIR)/apps/snmp/snmp_table.c \
+# 	$(LWIPDIR)/apps/snmp/snmp_threadsync.c \
+# 	$(LWIPDIR)/apps/snmp/snmp_traps.c
 
 # HTTPFILES: HTTP server + client
 HTTPFILES=$(LWIPDIR)/apps/http/altcp_proxyconnect.c \
